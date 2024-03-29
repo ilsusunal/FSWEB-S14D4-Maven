@@ -23,4 +23,13 @@ public abstract class Monster {
         return damage;
     }
     public abstract double attack();
+
+    @Override
+    public String toString() {
+        return "Monster{" +
+                "name='" + name + '\'' +
+                ", hitPoints=" + hitPoints +
+                ", damage=" + damage +
+                '}';
+    }
 }
